@@ -7,10 +7,6 @@ puts "Exercise 4"
 puts "----------"
 
 # Your code goes here ...
-class Store < ActiveRecord::Base
-  has_many :employees
-end
-
 surrey = Store.create(
   name: 'Surrey',
   annual_revenue: 224000,
